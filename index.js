@@ -11,6 +11,7 @@ const TWLightAccessory = require('./lib/TWLightAccessory');
 const AirConditionerAccessory = require('./lib/AirConditionerAccessory');
 const AirPurifierAccessory = require('./lib/AirPurifierAccessory');
 const DehumidifierAccessory = require('./lib/DehumidifierAccessory');
+const Dehumidifier2Accessory = require('./lib/Dehumidifier2Accessory');
 const ConvectorAccessory = require('./lib/ConvectorAccessory');
 const GarageDoorAccessory = require('./lib/GarageDoorAccessory');
 const SimpleDimmerAccessory = require('./lib/SimpleDimmerAccessory');
@@ -38,6 +39,7 @@ const CLASS_DEF = {
     airconditioner: AirConditionerAccessory,
     airpurifier: AirPurifierAccessory,
     dehumidifier: DehumidifierAccessory,
+    dehumidifier2: Dehumidifier2Accessory,
     convector: ConvectorAccessory,
     garagedoor: GarageDoorAccessory,
     simpledimmer: SimpleDimmerAccessory,
